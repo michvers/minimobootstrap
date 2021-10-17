@@ -1,0 +1,50 @@
+@font-face {
+    font-family: PlayfairDisplayRegular;
+    src: url('../fonts/PlayfairDisplay-Regular.ttf');
+}
+@font-face {
+    font-family: segoewplight;
+    src: url('../fonts/segoe-wp-light.ttf');
+}
+body{
+    font-family: PlayfairDisplayRegular;
+    margin: 0 auto;
+}
+.card{
+    border: none;
+}
+#nieuwsbrief{
+    background:#f0f0f0;
+    width: 1060px;
+    /*margin: 175px -80px;*/
+    text-align:center;
+}
+#formmail{
+    border-bottom:1px solid #626262;
+    color:#626262;
+}
+#nieuwsbriefbox{
+    width:365px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+#formmail > input[type=email]{
+    border:0px;
+    background:#f0f0f0;
+}
+#formmail > button{
+    border:0px;
+    background:#f0f0f0;
+}
+#terms a{
+    text-decoration: none;
+    color: black;
+}
+#social a{
+    color: black;
+}
+#loadmorebutton{
+    padding-top: 130px;
+    padding-bottom: 1000px;
+}
